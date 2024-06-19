@@ -19,14 +19,55 @@ h3{
     margin-block-start: 27px;
 }
 
+/* table{
+    border-inline: 1px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+} */
+
+#underline{
+    text-decoration: underline;
+}
+
 p{
     text-indent: 25px;
     margin-top: 20px;
 }
 
-#logo{
+#logo1{
     width: 100%;
     height: 245px;
+    object-fit: cover;
+    object-position: 30% 10%;
+}
+
+#logo2{
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    object-position: 30% 30%;
+}
+
+#logo3{
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    object-position: 30% 50%;
+}
+
+#logo4{
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    object-position: 30% 70%;
+}
+
+#phoneemail{
+    display: flex;
+        justify-content: space-between;
+    margin-top: -10px;
 }
 
 a{
@@ -68,9 +109,24 @@ a[href="#"]{
 }
 
 footer {
+    margin-top: 30px;
     text-align: center;
     padding: 1px 0;
     background-color: #f1f1f1;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
+#playpolicices{
+    margin-left: 20px;
+}
+
+li{
+    margin-left: 20px;
+}
+
+.olli{
+    margin-left: 20px;
+    list-style-type: lower-alpha
+}
